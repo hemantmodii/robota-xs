@@ -16,10 +16,10 @@
   left: calc(50% - 100px);
   transform-style:  preserve-3d;
   transform: perspective(1200px);
-  animation: autoRun 20s linear infinite;
+  animation: autoRun 16s linear infinite;
   z-index: 1;
-  animation-timing-function: ease-in-out;
-  transition: animation-play-state 0.5s ease-in-out, animation-direction 0.5s ease-in-out;
+  /* animation-timing-function: ease-in-out; */
+  /* transition: animation-play-state 0.5s, animation-direction 0.5s; */
 }
 
 @keyframes autoRun{
